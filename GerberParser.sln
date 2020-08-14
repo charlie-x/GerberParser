@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GerberParser", "GerberParser.vcxproj", "{BE0D1D26-FBC9-473D-AADD-C7A3BC26B82F}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestGerberParser", "..\TestGerberParser\TestGerberParser.vcxproj", "{7FCB783C-0354-47F6-BD68-E1D3C0A11621}"
-	ProjectSection(ProjectDependencies) = postProject
-		{BE0D1D26-FBC9-473D-AADD-C7A3BC26B82F} = {BE0D1D26-FBC9-473D-AADD-C7A3BC26B82F}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stencil_Jig", "..\Stencil_Jig\Stencil_Jig.vcxitems", "{45D41ACC-2C3C-43D2-BC10-02AA73FFC7C7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stencils", "Stencils\Stencils.vcxitems", "{2C74D222-C78F-440F-9075-B4039149C505}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestGerberParser", "TestGerberParser\TestGerberParser.vcxproj", "{7FCB783C-0354-47F6-BD68-E1D3C0A11621}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE0D1D26-FBC9-473D-AADD-C7A3BC26B82F} = {BE0D1D26-FBC9-473D-AADD-C7A3BC26B82F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,5 +41,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9F57CE3-EA2E-4605-9F54-014206069D02}
 	EndGlobalSection
 EndGlobal

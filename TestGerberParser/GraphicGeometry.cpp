@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "GraphicGeometry.h"
-#include "..\GerberParser\GerberRender.h"
-#include "..\GerberParser\GerberState.h"
+#include "..\GerberRender.h"
+#include "..\GerberState.h"
 #include "XMLHelper.h"
 
 CGraphicGeometry::CGraphicGeometry()

@@ -1,3 +1,5 @@
+#include <windows.h>
+
 #include "Part.h"
 #include "Rectangle.h"
 

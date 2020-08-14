@@ -41,7 +41,7 @@ CGerberRender* CGerberRender::Create(OUTPUT_TYPE ot)
 }
 void CGerberRender::Open(const char* pszFile)
 {
-	m_hFile = ::CreateFile(pszFile, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, 0, NULL);
+	m_hFile = ::CreateFileA(pszFile, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, 0, NULL);
 	if (m_hFile == INVALID_HANDLE_VALUE)
 	{
 		DWORD dwError = GetLastError();

@@ -2,7 +2,7 @@
 #include "Graphic.h"
 
 #include <string>
-#include "..\GerberParser\WKBGeometry.h"
+#include "..\WKBGeometry.h"
 
 class CGraphicGeometry :
 	public CGraphic

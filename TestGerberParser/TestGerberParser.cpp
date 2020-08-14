@@ -2,9 +2,9 @@
 //
 
 #include "stdafx.h"
-#include "..\GerberParser\GerberParser.h"
-#include "..\GerberParser\GerberRender.h"
-#include "..\GerberParser\DrillsParser.h"
+#include "..\GerberParser.h"
+#include "..\GerberRender.h"
+#include "..\DrillsParser.h"
 #include <windows.h>
 #include <string>
 #include <vector>
@@ -331,7 +331,7 @@ int main(int ac, char** av)
 	}
 	catch (const char* psz)
 	{
-		::MessageBox(NULL, psz, "Exception", MB_OK);
+		::MessageBoxA(NULL, psz, "Exception", MB_OK);
 	}
 	return 0;
 }

@@ -5,7 +5,8 @@
 CGerberPrimitive::CGerberPrimitive()
 {
 }
-CGerberPrimitive::~CGerberPrimitive()
+
+CGerberPrimitive::~CGerberPrimitive() 
 {
 }
 void CGerberPrimitive::AddModifier(CExpression* pExpression)

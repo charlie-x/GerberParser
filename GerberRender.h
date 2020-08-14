@@ -2,7 +2,7 @@
 #include "GerberTypes.h"
 
 #include <windows.h>
-
+#include <string>
 #include "WKBGeometry.h"
 #include <map>
 

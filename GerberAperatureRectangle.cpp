@@ -1,3 +1,5 @@
+#include <windows.h>
+
 #include "GerberAperatureRectangle.h"
 #include "WKBGeometry.h"
 #include "GerberRender.h"

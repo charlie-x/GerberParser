@@ -1,3 +1,4 @@
+#include <windows.h>
 #include "WKBGeometry.h"
 #include "InputStream.h"
 

@@ -1,12 +1,12 @@
 #include "stdafx.h"
 #include "Folder.h"
 
-#include "..\GerberParser\GerberParser.h"
-#include "..\GerberParser\DrillsParser.h"
-#include "..\GerberParser\GerberRender.h"
-#include "..\GerberParser\Rectangle.h"
-#include "..\GerberParser\GerberState.h"
-#include "..\GerberParser\Layer.h"
+#include "..\GerberParser.h"
+#include "..\DrillsParser.h"
+#include "..\GerberRender.h"
+#include "..\Rectangle.h"
+#include "..\GerberState.h"
+#include "..\Layer.h"
 
 #include "XMLHelper.h"
 #include "TextFile.h"

@@ -137,9 +137,6 @@
     <ClCompile Include="GerberCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Composite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GerberSegment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

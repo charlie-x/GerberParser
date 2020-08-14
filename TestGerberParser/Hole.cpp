@@ -1,8 +1,8 @@
 #include "stdafx.h"
 #include "Hole.h"
-#include "..\GerberParser\GerberState.h"
+#include "..\GerberState.h"
 
-#include "..\GerberParser\GerberRender.h"
+#include "..\GerberRender.h"
 #include "XMLHelper.h"
 
 CHole::CHole()
